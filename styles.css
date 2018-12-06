@@ -1,6 +1,8 @@
 @font-face {
-  font-family: 'Shoelaces';
+    font-family: 'Shoelaces';
+    src: url("C:\Users\kuhar\OneDrive\Documents\kuharins.github.io/Gleb Guralnyk - Shoelaces.otf");
 }
+
 body {
     background-color: rgb(34, 32, 45);
 }
@@ -24,7 +26,7 @@ h2 {
     color: white;
     font-size: 40px;
     padding: 1% 0 2% 15%;
-    margin:auto;
+    margin: auto;
 }
 
 h3 {
@@ -34,6 +36,7 @@ h3 {
     color: skyblue;
     font-size: 30px;
 }
+
 h4 {
     font-family: 'IBM Plex Sans ', sans-serif;
     font-weight: normal;
@@ -55,6 +58,7 @@ h4 {
     border-radius: 10px;
     transition: all .25s ease;
 }
+
 .box .column {
     float: left;
     width: 40%;
@@ -112,7 +116,7 @@ a {
     color: white;
 }
 
-.two:hover ~ hr{
+.two:hover ~ hr {
     margin-left: 37%;
 }
 
@@ -142,7 +146,7 @@ hr {
 
 /*Contact form style*/
 form {
-    text-align:center;
+    text-align: center;
     width: 75%;
     height: auto;
     display: inline-block;
@@ -151,21 +155,23 @@ form {
     margin: 3% 12.5% 10% 12.5%;
     padding: 0 0 1.5% 0;
 }
+
 input {
-    width:90%;
+    width: 90%;
     padding: 15px;
-    margin:3% 3% 1.5% 3%;
+    margin: 3% 3% 1.5% 3%;
     border: 2px solid deepskyblue;
     border-radius: 4px;
-    background-color:  rgb(34, 32, 45);
+    background-color: rgb(34, 32, 45);
     font-family: 'IBM Plex Sans ', sans-serif;
     font-weight: normal;
-    font-size:100%;
-    color:white;
+    font-size: 100%;
+    color: white;
 }
+
 .half input {
-    width:40%;
-    display:inline-block;
+    width: 40%;
+    display: inline-block;
 }
 
 
@@ -177,31 +183,39 @@ input {
         font-size: 80px;
         margin: 0px;
     }
+
     h2 {
         font-size: 30px;
     }
+
     h3 {
         font-size: 25px;
     }
+
     h4 {
-        font-size:20px;
+        font-size: 20px;
     }
+
     .box {
         width: 90%;
         margin: 0 5% 0 5%;
     }
+
     form {
-        text-align:center;
+        text-align: center;
         width: 90%;
         margin: 0 5% 0 5%;
-        padding:5% 0 5% 0;
+        padding: 5% 0 5% 0;
     }
+
     input {
-        width:75%;
+        width: 75%;
     }
+
     .half input {
         width: 75%;
     }
+
     div.hide {
         font-size: 20px;
     }
