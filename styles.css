@@ -170,6 +170,7 @@ input {
 @media screen and (max-width: 600px) {
 
     h1 {
+        font-family: "Shoelaces";
         font-size: 80px;
         margin: 0px;
     }
