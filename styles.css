@@ -1,15 +1,10 @@
-@font-face {
-    font-family: "Shoelaces";
-    src: url("C:/Users/kuhar/OneDrive/Documents/kuharins.github.io/Gleb Guralnyk - Shoelaces.otf");
-}
-
 body {
     background-color: rgb(34, 32, 45);
 }
 
 /*Title*/
 h1 {
-    font-family: "Shoelaces";
+    font-family: 'Pacifico', cursive;
     font-size: 150px;
     margin: auto;
     text-align: center;
@@ -179,7 +174,6 @@ input {
 @media screen and (max-width: 600px) {
 
     h1 {
-        font-family: "Shoelaces";
         font-size: 80px;
         margin: 0px;
     }
