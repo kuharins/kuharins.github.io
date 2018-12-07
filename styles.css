@@ -178,11 +178,9 @@ hr {
 .box hr {
     height: .25rem;
     width: 90%;
-    border: none;
     background: white;
     text-align: center;
     margin: auto;
-    border: 2px solid deepskyblue;
     border-radius: 5px;
 }
 
